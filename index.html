@@ -13,12 +13,15 @@
     <header>
     <h1>AI South African poem generator</h1>
     <main>
+        <div class="form-container">
         <form id="poem-generator">
             <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomple="off"
             class="instructions" id="user-instructions"/>
-            <input type="submit" class="submit-button" />
+            <input type="submit" class="submit-button" />    
         </form>
-        <div class="poem" id="poem"></div>
+        <div class="hint">i.e: Flower, Love or Hope</div>
+        </div>
+        <div class="poem hidden blink" id="poem"></div>
     </main>
     </header>
     <footer>
